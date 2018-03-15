@@ -1,3 +1,9 @@
+int sensorPin = A0;    // select the input pin for the potentiometer
+int ledPin1 = 13; 
+int ledPin2 = 9; 
+int ledPin3 = 5;// select the pin for the LED
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
 void setup() {
   // declare the ledPin as an OUTPUT:
   pinMode(ledPin1, OUTPUT);
